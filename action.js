@@ -293,6 +293,14 @@ if((s1.options[s1.selectedIndex].value=="cse") &&(s2.options[s2.selectedIndex].v
 {
 var op1=document.createElement("option");
 var op2=document.createElement("option");
+var op3=document.createElement("option");
+var op4=document.createElement("option");
+var op5=document.createElement("option");
+var op6=document.createElement("option");
+op1.text="select";
+op1.value="select";
+
+op2.text="Emerging trend in information technology";
 op2.value="Emerging trend in information technology";
 
 op3.text="Mobile android development";
